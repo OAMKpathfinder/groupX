@@ -1,0 +1,29 @@
+html,
+body{
+  height:100%;
+  width: 100%;
+}
+.menu {
+  position: absolute;
+  float: left;
+  width: 200px;
+  background-color: black;
+  margin-bottom: -101%;
+  padding-bottom: 101%; 
+  font-size: 30px;
+}
+.menu ul li {
+  list-style-type: none;
+}
+.myPage {
+  position: relative;
+  margin-left: 210px;
+}
+.myTable{
+  table-layout: fixed;
+  width: 600px; 
+}
+.error{
+  font-size: 30px;
+  color: red;
+}
